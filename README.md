@@ -31,11 +31,11 @@ Our appication will generate real-time and historical financial market data. Our
    - 300 google API Calls/minute
  - Our historical data is limited due to using a free version of finnhub
 
+## Our Data
+- Our data is available to view on a shared [Google Drive](https://drive.google.com/drive/folders/1hgWRHwlC9thoPKd7-dRqEHTPGYv3LtUk?usp=sharing)
 
 ## Running the Application
-We produced two different jupyter notebooks:
-1. `final_project_group_one.ipynb`: this notebook will generate the data locally into CSV files. The input is a hardcoded list of stock tickers that can be adjusted.
-2. `google_drive/project.ipynb`: this notebook will generate the data directly into our shared [Google Drive](https://drive.google.com/drive/folders/1hgWRHwlC9thoPKd7-dRqEHTPGYv3LtUk?usp=sharing) location. This version will allow the user to input a stock symbol or could run against all stock tickers from a specific market i.e. Nasdaq, NY stock exchange, ect.
+1. `project_1.ipynb`: this notebook will use the local CSV files to run the analysis
 
 
 ### Software Pre-requisites:
