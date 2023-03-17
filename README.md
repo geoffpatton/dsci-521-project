@@ -15,9 +15,9 @@ Our appication performs stock analysis and interpretation with historical financ
 The dataset used to perform the analysis is stored in csv files within the `data` directory. It is available in Google Drive: [Access Link](https://drive.google.com/drive/folders/1hgWRHwlC9thoPKd7-dRqEHTPGYv3LtUk?usp=sharing). It contains financial data for Comcast and other companies. We utilized [Finnhub](https://finnhub.io/docs/api) as the source of our data. Which is collected from our `financial_data_preprocessor` jupyter notebook.
 Below is a list of the data that we gathered:
   - __Candlestick Data:__ Daily candlestick data (OHLCV) for stocks.
-   - `candlestick_data.csv`
+    - `candlestick_data.csv`
   - __Technical Indicators Data:__ Contains technical indicators such as moving average and the bollinger bands with the candlestick data.
-   - `technical_indicators.csv`
+    - `technical_indicators.csv`
  - __Company Surprise Earnings:__ Historical quarterly earnings containing expected and actual earnings
    - `surprise_earnings.csv`
  - __Recommendation Trends:__ The latest analyst recommendation trends for a company.
