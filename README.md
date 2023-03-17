@@ -9,7 +9,7 @@
 - Rohit Bhattacharya - rb689@drexel.edu
 
 ### Project Summary
-Our appication will generate real-time and historical financial market data. Our data store is available to view in Google Drive: [Access Link](https://drive.google.com/drive/folders/1hgWRHwlC9thoPKd7-dRqEHTPGYv3LtUk?usp=sharing). It contains data from all S&P 500 companies. We use [Finnhub](https://finnhub.io/docs/api) as the source of our data. Below is a list of the data we generate for analysis:
+Our appication run a stock analysis with historical financial market data. Our data store is available to view in Google Drive: [Access Link](https://drive.google.com/drive/folders/1hgWRHwlC9thoPKd7-dRqEHTPGYv3LtUk?usp=sharing). It contains data from 75 companies. We use [Finnhub](https://finnhub.io/docs/api) as the source of our data. Below is a list of the data we generate for analysis:
   - __Candlestick Data:__ Daily candlestick data (OHLCV) for stocks.
    - `candlestick_data.csv`
  - __Company Surprise Earnings:__ Historical quarterly earnings containing expected and actual earnings
@@ -42,16 +42,19 @@ Our appication will generate real-time and historical financial market data. Our
 Install the following dependencies in the python environment.
 ```
 pip install pandas
+pip install numpy
+pip install matplotlib
+pip install scikit-learn
 pip install finnhub-python
 ```
 
 ### Running with Visual Studio Code
 1. Install or enable the Python and Jupyter extenstions
-2. Open the `final_project_group_one.ipynb` jupyter notebook
+2. Open the `project_1.ipynb` jupyter notebook
 3. Press `Run All` Button
 
 ### Running with jupyter notebook server
-1. Run the `jupyter notebook` command in terminal from `dsci-511-project` directory
+1. Run the `jupyter notebook` command in terminal from `dsci-521-project` directory
 2. The notebook should open in your browser.
 3. From the browser run all cells
 
