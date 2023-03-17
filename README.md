@@ -35,7 +35,7 @@ Below is a list of the data that we gathered:
  - Our historical data is limited due to using a free version of finnhub. Which limits our API calls to 60 a minute.
 
 ## Running the Application
-1. `project-1.ipynb`: this notebook will use the local CSV files to run the analysis
+1. `final_project_impl.ipynb`: this notebook will use the local CSV files to run the analysis
 
 
 ### Software Pre-requisites:
@@ -50,7 +50,7 @@ pip install finnhub-python
 
 ### Running with Visual Studio Code
 1. Install or enable the Python and Jupyter extenstions
-2. Open the `project-1.ipynb` jupyter notebook
+2. Open the `final_project_impl.ipynb` jupyter notebook
 3. Press `Run All` Button
 
 ### Running with jupyter notebook server
