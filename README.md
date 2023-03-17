@@ -26,16 +26,14 @@ Our appication run a stock analysis with historical financial market data. Our d
    - `senate_lobbying.csv`
 
 ### Issues and Limitations:
- - Timeouts/Rate Limit:
-   - 60 finnhub API calls/minute for each client
-   - 300 google API Calls/minute
  - Our historical data is limited due to using a free version of finnhub
+ - When gathering data from the finnhub API, we are limited to 60 calls/minute
 
 ## Our Data
 - Our data is available to view on a shared [Google Drive](https://drive.google.com/drive/folders/1hgWRHwlC9thoPKd7-dRqEHTPGYv3LtUk?usp=sharing)
 
 ## Running the Application
-1. `project_1.ipynb`: this notebook will use the local CSV files to run the analysis
+1. `project-1.ipynb`: this notebook will use the local CSV files to run the analysis
 
 
 ### Software Pre-requisites:
@@ -50,7 +48,7 @@ pip install finnhub-python
 
 ### Running with Visual Studio Code
 1. Install or enable the Python and Jupyter extenstions
-2. Open the `project_1.ipynb` jupyter notebook
+2. Open the `project-1.ipynb` jupyter notebook
 3. Press `Run All` Button
 
 ### Running with jupyter notebook server
