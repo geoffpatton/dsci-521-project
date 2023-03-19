@@ -28,8 +28,6 @@ Below is a list of the data that we gathered:
    - `insider_transactions.csv`
  - __Social Media Sentiment:__ Social sentiment for stocks on Reddit and Twitter.
    - `social_media_sentiment.csv`
- - __Senate Lobbying Activities:__ List of reported lobbying activities in the Senate and the House.
-   - `senate_lobbying.csv`
 
 ### Issues and Limitations:
  - Our historical data is limited due to using a free version of finnhub. Which limits our API calls to 60 a minute.
@@ -46,6 +44,7 @@ pip install numpy
 pip install matplotlib
 pip install scikit-learn
 pip install finnhub-python
+pip install seaborn
 ```
 
 ### Running with Visual Studio Code
