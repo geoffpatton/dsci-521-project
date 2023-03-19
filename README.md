@@ -62,7 +62,5 @@ pip install finnhub-python
 
 
 ### Code Overview
-Our jupyter notebooks are designed to iterate over a collection of stock symbols and will populate each one our datasets with the most up to date financial information provided from Finnhub. Our datasets are designed to allow additional entries to be added to them while maintaining all historical data that already exists and not allow duplicate entries.
+Our jupyter notebooks are designed to read the candlestick stock information for CMCSA from the .csv file and will predict the 'close' stock price for the past/future and provide a comparative analysis of the actual stock price versus the price predicted by the model. The implementation will also plot the graphs between actual/predicted/future 'close' price for comparison.
 
-### Defining Stock Symbols:
-The last section of the notebook contains a hardcoded set of stock tickers that determines which financial data is generated.
