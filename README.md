@@ -9,7 +9,14 @@
 - Rohit Bhattacharya - rb689@drexel.edu
 
 ### Project Summary
-Our appication performs stock analysis and interpretation with historical financial market data.
+This application performs a financial analysis on a company utilizing historical financial market data in order to give its user to make well informed investment decisions.
+
+### Code Overview
+This project contains two jupyter notebooks:
+1. `final_project_impl.ipynb` - Main notebook which includes the following:
+    - Stock Prediction using Machine Learning - Utilizing financial data to predict the price of a stock. This implements python's machine learning libraries to execute the prediction. This implementation will also plot the graphs between actual/predicted/future 'close' price for comparison.
+    - Exploritory Data Analysis - Displays information related to a company including it latest analyst recommendations, historical earnings, social media sentiment, and a recent history of a stock's price along with technical indicators.
+2. `financial_data_preprocessor.ipynb` - Notebook used to gather financial data
 
 ### Dataset
 The dataset used to perform the analysis is stored in csv files within the `data` directory. It is available in Google Drive: [Access Link](https://drive.google.com/drive/folders/1hgWRHwlC9thoPKd7-dRqEHTPGYv3LtUk?usp=sharing). It contains financial data for Comcast and other companies. We utilized [Finnhub](https://finnhub.io/docs/api) as the source of our data. Which is collected from our `financial_data_preprocessor` jupyter notebook.
@@ -58,8 +65,4 @@ pip install seaborn
 3. From the browser run all cells
 
 > To run from server, jupyter must be installed: `pip install -U jupyter`
-
-
-### Code Overview
-Our jupyter notebooks are designed to read the candlestick stock information for CMCSA from the .csv file and will predict the 'close' stock price for the past/future and provide a comparative analysis of the actual stock price versus the price predicted by the model. The implementation will also plot the graphs between actual/predicted/future 'close' price for comparison.
 
