@@ -36,6 +36,9 @@ Below is a list of the data that we gathered:
  - __Social Media Sentiment:__ Social sentiment for stocks on Reddit and Twitter.
    - `social_media_sentiment.csv`
 
+### Project Results
+The project results are available in the "Modeling and Prediction" section of the final_project_impl.ipynb project file.
+
 ### Limitations and Challenges:
  - Our historical data is limited due to using a free version of finnhub. Which limits our API calls to 60 a minute.
  - A challenge for the future would be to predict the stock price further in the future as well as when to buy or sell a stock
@@ -66,4 +69,5 @@ pip install seaborn
 3. From the browser run all cells
 
 > To run from server, jupyter must be installed: `pip install -U jupyter`
+
 
